@@ -1,40 +1,56 @@
-.fheader{
-    background-color: rgb(56, 223, 195);
-    height: 129px;
-
+.fheader {
+  background-color: rgb(56, 223, 195);
+  height: 129px;
 }
-.background{
-    background-color: white;
+.background {
+  background-color: white;
 }
-.fixed{
-    position: fixed;
+.fixed {
+  position: fixed;
   bottom: 10%;
   right: 30px;
 }
 .sidenav {
-    height: 100%;
-    width:0px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color:white;
-    overflow-x: hidden;
-    transition: 0.5s;
-  }
-  .buttonfloating{
-    position: absolute;
-    left: 100%;
-    top: 80%;
-    
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.buttonfloating {
+  position: absolute;
+  left: 100%;
+  top: 80%;
+}
+.buttonfloating button {
+  background-color: rgb(180, 176, 176);
+}
+.list-group li {
+  list-style: none;
+}
+.comand {
+  line-height: 20px;
+}
 
-  }
-  .buttonfloating button{
-    background-color: rgb(180, 176, 176);
-  }
-  .list-group li{
-    list-style: none;
-  }
-  .comand{
-    line-height: 20px;
-  }
+.infoCard {
+  position: relative;
+}
+
+.infoCard img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.4;
+  width: 35%;
+  z-index: 0;
+  padding: 0px !important;
+}
+
+.infoCard span {
+  position: relative;
+  z-index: 5;
+}
