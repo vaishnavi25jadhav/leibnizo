@@ -38,19 +38,19 @@
 
 .infoCard {
   position: relative;
+  z-index: 6;
+}
+
+.infoCard div {
+  background-color: rgba(255, 255, 255, 0.295);
 }
 
 .infoCard img{
   position: absolute;
   top: 0;
   right: 0;
-  opacity: 0.4;
   width: 35%;
-  z-index: 0;
+  z-index: -3;
   padding: 0px !important;
 }
 
-.infoCard span {
-  position: relative;
-  z-index: 5;
-}
