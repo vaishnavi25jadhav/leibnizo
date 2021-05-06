@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Landlord Report</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/LandlordReport.css" />
+    <!-- Custom styles -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <div class="row d-flex align-items-center p-5">
+        <div class="col-4">
+          <i class="fas fa-angle-left fa-3x" onclick="closeNav()"></i>
+        </div>
+        <div class="col-4 d-flex justify-content-end"><h4>Menu</h4></div>
+        <div class="col-4">
+          <div class="position-relative">
+            <img
+              src="./img/water.jpg"
+              class="rounded-circle"
+              width="80px"
+              height="80px"
+              alt=""
+            />
+            <div class="buttonfloating">
+              <button
+                type="button"
+                class="btn btn-outline-light btn-floating btn-sm text-black"
+              >
+                <i class="fas fa-pen fa-xs"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div>
+            Personal Information <br />
+            Max Mustermann Musterstr,174 <br />
+            23784 Musterstadt <br />
+            mustermail@muster.de <br />
+            32458902456
+          </div>
+          <div><i class="fas fa-pen d-flex justify-content-end pt-3"></i></div>
+          <div><i class="fas fa-pen d-flex justify-content-end pt-3"></i></div>
+          <hr />
+          <div>
+            <ul class="list-group">
+              <li class="">Help</li>
+              <li>GTC</li>
+              <li>Craftmen hotine</li>
+              <li>Emergency service</li>
+            </ul>
+            <hr />
+            <div>
+              <ul class="list-group">
+                <li>Dates</li>
+                <li>Show dates</li>
+                <li>Cancel dates</li>
+                <li>Edit dates</li>
+              </ul>
+              <hr />
+            </div>
+            <div>
+              <ul class="list-group">
+                <li><h6>Account</h6></li>
+                <li class="text-danger">Change account</li>
+                <li class="text-danger">Change language</li>
+                <li class="text-danger">Logout</li>
+                <li class="text-danger">Delete account</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12"></div>
+        <div class="col-12"></div>
+        <div class="col-12"></div>
+      </div>
+    </div>
+    <div class="">
+      <div class="row fheader d-flex justify-content-center">
+        <div class="col-2 text-white pt-4 ps-4">
+          <!-- <i class="fas fa-angle-left fa-3x"></i> -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="9.62" height="15.6" viewBox="0 0 9.62 15.6">
+            <path id="path" d="M17.62,7.82,15.8,6,8,13.8l7.8,7.8,1.82-1.82L11.64,13.8Z" transform="translate(-8 -6)" fill="#fff" fill-rule="evenodd"/>
+          </svg>
+          
+        </div>
+        <div class="col-5 d-flex justify-content-start text-white pt-4 comand">
+          Max Mustermann <br />
+          Muster.172 <br />
+          23875 Musterstadt <br />
+          Tenant
+        </div>
+        <div class="col-5 pt-4 text-end px-4">
+          <button class="btn text-white shadow-0" onclick="openNav()">
+            <!-- <i class="fas fa-bars fa-2x"></i> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="21.4" height="13.8" viewBox="0 0 21.4 13.8">
+              <g id="Group_26" data-name="Group 26" transform="translate(-308.5 -94)">
+                <path id="Path_86" data-name="Path 86" d="M0,0H21.4" transform="translate(308.5 95.5)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-width="3"/>
+                <path id="Path_87" data-name="Path 87" d="M0,0H21.4" transform="translate(308.5 100.9)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-width="3"/>
+                <path id="Path_88" data-name="Path 88" d="M0,0H21.4" transform="translate(308.5 106.3)" fill="rgba(0,0,0,0)" stroke="#fff" stroke-width="3"/>
+              </g>
+            </svg>
+            
+          </button>
+        </div>
+      </div>
+      <div class="p-5 background">
+        <div class="d-flex justify-content-between pb-3">
+          <div class="fs-5">Current Damages</div>
+
+          <div>
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex justify-content-between">
+              <span class="fw-bold fs-6">Pipe Break <button
+                type="button"
+                class="btn btn-outline-danger btn-rounded btn-sm"
+                data-mdb-ripple-color="dark"
+              >
+                NEW
+              </button></span
+              ><span class="">29-6-2019</span>
+            </div>
+            
+          </div>
+          <div class="col-9"><span
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            qui illum dolor maiores ut. Beatae, consequuntur ab tenetur culpa
+            dignissimos provident ex delectus illum recusandae qui iure totam
+            velit laudantium!</span
+          >
+          <div class="row p-2">
+            <button
+              type="button"
+              class="btn btn-outline-dark btn-rounded col-5 me-1"
+              data-mdb-ripple-color="dark"
+            >
+              Accept
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-dark btn-rounded col-5 me-1"
+              data-mdb-ripple-color="dark"
+            >
+              Deny
+            </button>
+          </div></div>
+          <div class="col-3">
+            <span
+              ><img
+                src="./img/pipe.jpg"
+                class="img-fluid pb-4 h-100 rounded-2"
+                alt=""
+            /></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex justify-content-between">
+              <span class="fw-bold fs-6">Pipe Break <button type="button" class="btn btn-danger btn-rounded btn-sm">Denied</button></span
+              ><span class="">29-6-2019</span>
+            </div>
+           
+          </div>
+          <div class="col-9"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam qui
+            illum dolor maiores ut. Beatae, consequuntur ab tenetur culpa
+            dignissimos provident ex delectus illum recusandae qui iure totam
+            velit laudantium!</div>
+          <div class="col-3">
+            <span
+              ><img
+                src="./img/pipe.jpg"
+                class="img-fluid pb-4 h-100 rounded-2"
+                alt=""
+            /></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex justify-content-between">
+              <span class="fw-bold fs-6">Pipe Break <button type="button" class="btn btn-success btn-rounded btn-sm">accepted</button></span
+              ><span class="">29-6-2019</span>
+            </div>
+            
+          </div>
+          <div class="col-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam qui
+            illum dolor maiores ut. Beatae, consequuntur ab tenetur culpa
+            dignissimos provident ex delectus illum recusandae qui iure totam
+            velit laudantium!</div>
+          <div class="col-3">
+            <span
+              ><img
+                src="./img/pipe.jpg"
+                class="img-fluid pb-4 h-100 rounded-2"
+                alt=""
+            /></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fixed">
+      <!-- <button type="button" class="btn btn-primary btn-lg btn-floating">
+        <i class="fas fa-plus"></i>
+      </button> -->
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="65.5" viewBox="0 0 65 65.5">
+        <defs>
+          <filter id="teal_circle" x="0" y="0.5" width="65" height="65" filterUnits="userSpaceOnUse">
+            <feOffset dy="2" input="SourceAlpha"/>
+            <feGaussianBlur stdDeviation="1.5" result="blur"/>
+            <feFlood flood-opacity="0.129"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+          </filter>
+        </defs>
+        <g id="Group_25" data-name="Group 25" transform="translate(-287.5 -510)">
+          <g transform="matrix(1, 0, 0, 1, 287.5, 510)" filter="url(#teal_circle)">
+            <path id="teal_circle-2" data-name="teal circle" d="M28,0A28,28,0,1,1,0,28,28,28,0,0,1,28,0Z" transform="translate(4.5 3)" fill="#3498db"/>
+          </g>
+          <text id="_" data-name="+" transform="translate(310 551)" fill="#fff" font-size="38" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">+</tspan></text>
+        </g>
+      </svg>
+      
+    </div>
+  </body>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "300px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+  <script src="./script.js"></script>
+</html>

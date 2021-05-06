@@ -1,0 +1,29 @@
+.theader{
+    background-color: #3498DB;
+    height: 200px;
+
+}
+.form-label{
+    line-height:0px;
+}
+.wrapper-child{
+    margin-top: -100px;
+}
+.card{
+    line-height: 0px;
+}
+::placeholder {
+    color:#95989A !important;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:#95989A !important;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color:#95989A !important;
+  }
+  .content{
+      color: #919191;
+  }

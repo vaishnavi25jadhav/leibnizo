@@ -1,0 +1,37 @@
+.fheader{
+    background-color: rgb(69, 176, 238);
+    height: 300px;
+
+}
+.background{
+    background-color: #ebe8e8;
+}
+.fixed{
+    position: fixed;
+  bottom: 10%;
+  right: 30px;
+}
+.sidenav {
+    height: 100%;
+    width:0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color:white;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .buttonfloating{
+    position: absolute;
+    left: 100%;
+    top: 80%;
+    
+
+  }
+  .buttonfloating button{
+    background-color: rgb(180, 176, 176);
+  }
+  .list-group li{
+    list-style: none;
+  }

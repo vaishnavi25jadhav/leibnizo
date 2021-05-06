@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Tenantcalender</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/Tenantcalender.css" />
+    <!-- Custom styles -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <div class="row d-flex align-items-center p-5">
+        <div class="col-4">
+          <i class="fas fa-angle-left fa-3x" onclick="closeNav()"></i>
+        </div>
+        <div class="col-4 d-flex justify-content-end">
+          <h4>Menu</h4>
+        </div>
+        <div class="col-4">
+          <div class="position-relative">
+            <img
+              src="./img/water.jpg"
+              class="rounded-circle"
+              width="80px"
+              height="80px"
+              alt=""
+            />
+            <div class="buttonfloating">
+              <button
+                type="button"
+                class="btn btn-outline-light btn-floating btn-sm text-black"
+              >
+                <i class="fas fa-pen fa-xs"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div>
+            Personal Information <br />
+            Max Mustermann Musterstr,174 <br />
+            23784 Musterstadt <br />
+            mustermail@muster.de <br />
+            32458902456
+          </div>
+          <div><i class="fas fa-pen d-flex justify-content-end pt-3"></i></div>
+          <div><i class="fas fa-pen d-flex justify-content-end pt-3"></i></div>
+          <hr />
+          <div>
+            <ul class="list-group">
+              <li class="">Help</li>
+              <li>GTC</li>
+              <li>Craftmen hotine</li>
+              <li>Emergency service</li>
+            </ul>
+            <hr />
+            <div>
+              <ul class="list-group">
+                <li>Dates</li>
+                <li>Show dates</li>
+                <li>Cancel dates</li>
+                <li>Edit dates</li>
+              </ul>
+              <hr />
+            </div>
+            <div>
+              <ul class="list-group">
+                <li>
+                  <h6>Account</h6>
+                </li>
+                <li class="text-danger">Change account</li>
+                <li class="text-danger">Change language</li>
+                <li class="text-danger">Logout</li>
+                <li class="text-danger">Delete account</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12"></div>
+        <div class="col-12"></div>
+        <div class="col-12"></div>
+      </div>
+    </div>
+    <div class="">
+      <div class="row fheader d-flex justify-content-center">
+        <div class="col-2 text-white pt-5 ps-4">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </div>
+        <div class="col-5 d-flex justify-content-start text-white pt-5">
+          Max Mustermann <br />
+          Muster.172 <br />
+          23875 Musterstadt <br />
+          Tenant
+        </div>
+        <div class="col-5 pt-5 text-end px-4">
+          <button class="btn text-white shadow-0" onclick="openNav()">
+            <i class="fas fa-bars fa-2x"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row px-3 px-lg-5 pt-4">
+        <div class="col-12">
+          <div class="shadow-lg p-3">
+            <h1>CSS Calendar</h1>
+
+            <div class="month">
+              <ul>
+                <li class="prev">&#10094;</li>
+                <li class="next">&#10095;</li>
+                <li>
+                  August<br />
+                  <span style="font-size: 18px">2021</span>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="weekdays">
+              <li>Mo</li>
+              <li>Tu</li>
+              <li>We</li>
+              <li>Th</li>
+              <li>Fr</li>
+              <li>Sa</li>
+              <li>Su</li>
+            </ul>
+
+            <ul class="days">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              <li>6</li>
+              <li>7</li>
+              <li>8</li>
+              <li>9</li>
+              <li><span class="active">10</span></li>
+              <li>11</li>
+              <li>12</li>
+              <li>13</li>
+              <li>14</li>
+              <li>15</li>
+              <li>16</li>
+              <li>17</li>
+              <li>18</li>
+              <li>19</li>
+              <li>20</li>
+              <li>21</li>
+              <li>22</li>
+              <li>23</li>
+              <li>24</li>
+              <li>25</li>
+              <li>26</li>
+              <li>27</li>
+              <li>28</li>
+              <li>29</li>
+              <li>30</li>
+              <li>31</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row px-3 px-lg-5 pt-4 pb-3">
+      <div class="col-12">
+        <div class="shadow-lg p-3">
+          <div class="d-flex">
+            <label class="" for="flexCheckDefault"> Enter in calender </label>
+            <div class="ps-1">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault"
+              />
+              <label class="form-check-label" for="flexCheckDefault"> </label>
+            </div>
+          </div>
+          <div class="col-12 d-flex">
+            <label class="" for="flexCheckDefault"> Notification Via E-mail </label>
+            <div class="ps-1">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault"
+              />
+              <label class="form-check-label" for="flexCheckDefault"> </label>
+              
+            </div>
+            <label class="ps-3" for="flexCheckDefault"> Telefon </label>
+            <div class=" ps-1">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="flexCheckDefault"
+              />
+              <label class="form-check-label" for="flexCheckDefault"> </label>
+              
+            </div>
+          </div>
+          
+         
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "300px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+  <script src="./script.js"></script>
+</html>
